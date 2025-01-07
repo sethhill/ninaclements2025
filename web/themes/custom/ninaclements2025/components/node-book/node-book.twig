@@ -1,0 +1,11 @@
+<div class="c-book">
+  <div class="c-book__cover">
+    <div class="cover-treatment">
+      {% block cover_image_block %}{{ cover }}{% endblock %}
+    </div>
+  </div>
+  <div class="c-book__title"><h1 class="page-title">{{ title }}</h1></div>
+  <div class="c-book__publication_info">{{ publication_info }}</div>
+  <div class="c-book__links">{{ links }}</div>
+  <div class="c-book__body">{{ body }}</div>
+</div>

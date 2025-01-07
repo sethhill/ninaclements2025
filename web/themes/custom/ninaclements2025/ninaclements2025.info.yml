@@ -1,0 +1,26 @@
+name: ninaclements2025
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - ninaclements2025/global-styling
+  - ninaclements2025/base
+  - ninaclements2025/messages
+  - core/normalize
+  - core/drupal
+  - core/drupalSettings
+
+libraries-extend:
+  user/drupal.user:
+    - ninaclements2025/user
+  core/drupal.dropbutton:
+    - ninaclements2025/dropbutton
+  core/drupal.dialog:
+    - ninaclements2025/dialog
+  file/drupal.file:
+    - ninaclements2025/file
+  core/drupal.progress:
+    - ninaclements2025/progress
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.1.0'

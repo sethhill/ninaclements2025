@@ -1,0 +1,15 @@
+{#<style type="text/css">#}
+{#  :root {#}
+{#    --color-accent: {{ content.field_accent_color.0 }};#}
+{#    --color-overlay: {{ content.field_accent_color.0 }}33;#}
+{#    --image-endpaper: url({{ content.field_background_image.0|render|striptags|trim|raw }});#}
+{#  }#}
+{#</style>#}
+{{ include ('ninaclements2025:node-book', {
+  content: content,
+  title: label,
+  body: content.body,
+  links: content.field_link|render,
+  cover: content.field_media|render,
+  publication_info: content.field_publication_info|render,
+}, with_context = false) }}
