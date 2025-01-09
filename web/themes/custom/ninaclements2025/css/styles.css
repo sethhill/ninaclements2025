@@ -455,6 +455,9 @@ ul.menu li {
 ul.menu a {
   font-weight: 500;
 }
+ul.menu a:hover {
+  text-decoration: underline;
+}
 ul.menu a.is-active {
   text-decoration: underline;
   text-decoration: underline 2px var(--color-accent);

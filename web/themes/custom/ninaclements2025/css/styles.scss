@@ -505,7 +505,7 @@ ul.menu {
   margin: 0;
   padding: 0;
   text-align: left;
-  
+
   @media (min-width: 600px) {
     text-align: right;
   }
@@ -523,6 +523,14 @@ ul.menu {
 
   a {
     font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:active {
+
+    }
   }
 
   a.is-active {
