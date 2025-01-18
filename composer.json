@@ -22,11 +22,13 @@
         "drupal/core-recommended": "^11.1",
         "drupal/focal_point": "^2.1",
         "drupal/html_title": "^1.6",
+        "drupal/matomo": "^2.0@alpha",
         "drupal/mercury_editor": "^2.2",
         "drupal/navigation": "^1.0@beta",
         "drupal/navigation_top_bar": "^1.0@dev",
         "drupal/nomarkup": "^1.0",
         "drupal/sdc_display": "^2.0@beta",
+        "drupal/smtp": "^1.4",
         "drupal/twig_tweak": "^3.4",
         "drupal/webform": "^6.3@alpha",
         "drush/drush": "^13.3"
